@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-shoulders-display {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lexend-deca {
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section {
+    display: flex;
+    /* background-color: red; */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+section article {
+    width: 307px;
+    height: 500px;
+    padding: 48px;
+}
+
+section article div {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* opacity: 0.2; */
+    border-radius: 50%;
+    margin-bottom: 35px;
+    position: relative;
+}
+section article div img{
+    position: absolute;
+    top: 50%;
+    /* left: 0; */
+    right: 0;
+    /* transform: translateX(50%); */
+    /* transform: translateY(-50%); */
+    transform: translate(50%,-50%);
+}
+section article h3 {
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    margin-bottom: 25px;
+}
+
+section article p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.75;
+    margin-bottom: 83px;
+}
+
+section article a {
+    background-color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    width: 146px;
+    height: 48px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in;
+    border: 2px solid transparent;
+}
+
+.sedans {
+    background-color: #E28625;
+    /* border-radius: 8px 0 0 8px; */
+    /* opacity: 0; */
+}
+
+.suvs {
+    background-color: #006971;
+}
+
+.luxury {
+    background-color: #004140;
+    /* border-radius: 0 8px 8px 0; */
+
+}
+
+.sedans a {
+    color: #E28625;
+}
+
+.suvs a {
+    color: #006971;
+}
+
+.luxury a {
+    color: #004140;
+}
+
+article a:hover {
+    border: 2px solid #ffffff;
+    color: #FFFFFF;
+    /* background: none; */
+    background-color: transparent;
+}
